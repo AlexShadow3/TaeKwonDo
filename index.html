@@ -1,0 +1,50 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/icons/taekwondo.png" type="image/png">
+    <title>TaeKwonDo</title>
+</head>
+<body>
+    <div id="content"></div>
+
+    <script src="script.js"></script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Taekwondo Techniques</title>
+</head>
+<body>
+    <h1>Taekwondo Techniques</h1>
+
+    <div id="controls">
+        <select id="techniqueType">
+            <option value="">Toutes les techniques</option>
+            <option value="Mains fermées">Mains fermées</option>
+            <option value="Mains ouvertes">Mains ouvertes</option>
+            <option value="Poings">Poings</option>
+            <option value="Jambes">Jambes</option>
+        </select>
+        <input type="text" id="searchInput" placeholder="Rechercher une technique">
+        <button id="randomButton">Technique aléatoire</button>
+    </div>
+
+    <p id="counter">Techniques visibles : 0</p>
+    <div id="content"></div>
+
+    <p>
+        Vous pouvez activer ou désactiver l'ouverture automatique dans les
+        <a href="options.html" target="_blank">options</a>.
+    </p>
+
+    <script src="script.js"></script>
+</body>
+</html>
